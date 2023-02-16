@@ -174,15 +174,6 @@ class WheelOfFortune extends Component {
             </TSpan>
           );
         }
-        else if(this.props.options.textAngle === 'vertical-inline') {
-          return <TSpan
-              y={y -40}
-              dx={this.fontSize * 0.07}
-              transform={{rotate: '45deg'}}
-              key={`arc-${i}-slice-${j}`}>
-              {number.charAt(j)}
-            </TSpan>
-        }
         // Render reward text horizontally
         else {
           return (
