@@ -1,0 +1,23 @@
+{
+  "name": "react-native-wheel-spin-custom",
+  "version": "1.0.0",
+  "description": "Wheel spin customize",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynhtrungthoai/react-native-wheel-of-fortune.git"
+  },
+  "keywords": [
+    "wheel-spin","huynhtrungthoai","react-native-wheel-spin-custom"
+  ],
+  "author": "Eftal Yurtseven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huynhtrungthoai/react-native-wheel-of-fortune/issues"
+  },
+  "homepage": "https://github.com/huynhtrungthoai/react-native-wheel-of-fortune#readme",
+  "dependencies": {}
+}

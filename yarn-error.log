@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/Cellar/node/18.8.0_1/bin/node /usr/local/bin/yarn add wheel-spin
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Volumes/Data/ITBeeSolutions/flutter/bin:/Library/Apple/usr/bin:/Users/huynhtrungthoai/Library/Android/sdk/emulator:/Users/huynhtrungthoai/Library/Android/sdk/tools:/Users/huynhtrungthoai/Library/Android/sdk/tools/bin:/Users/huynhtrungthoai/Library/Android/sdk/platform-tools:/Users/huynhtrungthoai/Library/Android/sdk/emulator:/Users/huynhtrungthoai/Library/Android/sdk/tools:/Users/huynhtrungthoai/Library/Android/sdk/tools/bin:/Users/huynhtrungthoai/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  18.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/wheel-spin: Not found
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "wheel-spin",
+    "version": "1.0.0",
+    "description": "Wheel spin customize",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/huynhtrungthoai/react-native-wheel-of-fortune.git"
+    },
+    "keywords": [
+      "wheel-spin-huynhtrungthoai"
+    ],
+    "author": "Eftal Yurtseven",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/huynhtrungthoai/react-native-wheel-of-fortune/issues"
+    },
+    "homepage": "https://github.com/huynhtrungthoai/react-native-wheel-of-fortune#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
