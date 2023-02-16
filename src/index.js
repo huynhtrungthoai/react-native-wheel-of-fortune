@@ -1,15 +1,10 @@
-import React, {Component} from 'react';
-import {
-  View,
-  StyleSheet,
-  Dimensions,
-  Animated,
-  TouchableOpacity,
-  Image,
-} from 'react-native';
 import * as d3Shape from 'd3-shape';
+import React, { Component } from 'react';
+import {
+  Animated, Dimensions, Image, StyleSheet, TouchableOpacity, View
+} from 'react-native';
 
-import Svg, {G, Text, TSpan, Path, Pattern} from 'react-native-svg';
+import Svg, { G, Path, Text, TSpan } from 'react-native-svg';
 
 const AnimatedSvg = Animated.createAnimatedComponent(Svg);
 
@@ -180,7 +175,7 @@ class WheelOfFortune extends Component {
         if (this.props.options.textAngle === 'vertical') {
           return (
             <TSpan x={x} dy={this.fontSize} key={`arc-${i}-slice-${j}`}>
-              {number.charAt(j)}
+              {number.charAt(j)} aaa
             </TSpan>
           );
         }
